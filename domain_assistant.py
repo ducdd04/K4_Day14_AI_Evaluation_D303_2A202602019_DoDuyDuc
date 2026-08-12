@@ -19,7 +19,6 @@ from dataclasses import dataclass, replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Protocol
-
 from dotenv import load_dotenv
 from openai import OpenAI, OpenAIError
 
